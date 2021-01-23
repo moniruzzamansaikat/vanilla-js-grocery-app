@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Todo App</title>
+  </head>
+  <body>
+    <!-- overlaty -->
+    <div class="overlay"></div>
+
+    <ul class="list">
+      <li>
+        <h2 id="title">Grocery App</h2>
+      </li>
+      <li>
+        <div class="filter-box">
+          <input type="text" placeholder="Search" />
+        </div>
+      </li>
+      <li>
+        <form id="add-form">
+          <div class="input-box">
+            <input
+              title="Add Item"
+              autofocus
+              type="text"
+              placeholder="Add Item"
+              id="add-item"
+            />
+            <button type="submit">
+              <img src="img/Knob Add.png" alt="" />
+            </button>
+          </div>
+        </form>
+      </li>
+      <div id="list-container">
+        <li class="no-item">No Item</li>
+      </div>
+    </ul>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
